@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BEBFFBA1743556400FF3470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEBFFB91743556400FF3470 /* UIKit.framework */; };
+		3BEBFFBC1743556400FF3470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEBFFBB1743556400FF3470 /* Foundation.framework */; };
+		3BEBFFBE1743556400FF3470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEBFFBD1743556400FF3470 /* CoreGraphics.framework */; };
+		3BEBFFC41743556400FF3470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBFFC21743556400FF3470 /* InfoPlist.strings */; };
+		3BEBFFC61743556400FF3470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBFFC51743556400FF3470 /* main.m */; };
+		3BEBFFCA1743556400FF3470 /* HUDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEBFFC91743556400FF3470 /* HUDAppDelegate.m */; };
+		3BEBFFCC1743556400FF3470 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBFFCB1743556400FF3470 /* Default.png */; };
+		3BEBFFCE1743556400FF3470 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBFFCD1743556400FF3470 /* Default@2x.png */; };
+		3BEBFFD01743556400FF3470 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEBFFCF1743556400FF3470 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BEBFFB61743556400FF3470 /* progresshudtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = progresshudtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEBFFB91743556400FF3470 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BEBFFBB1743556400FF3470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BEBFFBD1743556400FF3470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BEBFFC11743556400FF3470 /* progresshudtest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "progresshudtest-Info.plist"; sourceTree = "<group>"; };
+		3BEBFFC31743556400FF3470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BEBFFC51743556400FF3470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BEBFFC71743556400FF3470 /* progresshudtest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "progresshudtest-Prefix.pch"; sourceTree = "<group>"; };
+		3BEBFFC81743556400FF3470 /* HUDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUDAppDelegate.h; sourceTree = "<group>"; };
+		3BEBFFC91743556400FF3470 /* HUDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDAppDelegate.m; sourceTree = "<group>"; };
+		3BEBFFCB1743556400FF3470 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3BEBFFCD1743556400FF3470 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3BEBFFCF1743556400FF3470 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BEBFFB31743556400FF3470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEBFFBA1743556400FF3470 /* UIKit.framework in Frameworks */,
+				3BEBFFBC1743556400FF3470 /* Foundation.framework in Frameworks */,
+				3BEBFFBE1743556400FF3470 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BEBFFAD1743556400FF3470 = {
+			isa = PBXGroup;
+			children = (
+				3BEBFFBF1743556400FF3470 /* progresshudtest */,
+				3BEBFFB81743556400FF3470 /* Frameworks */,
+				3BEBFFB71743556400FF3470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BEBFFB71743556400FF3470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BEBFFB61743556400FF3470 /* progresshudtest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BEBFFB81743556400FF3470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BEBFFB91743556400FF3470 /* UIKit.framework */,
+				3BEBFFBB1743556400FF3470 /* Foundation.framework */,
+				3BEBFFBD1743556400FF3470 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BEBFFBF1743556400FF3470 /* progresshudtest */ = {
+			isa = PBXGroup;
+			children = (
+				3BEBFFC81743556400FF3470 /* HUDAppDelegate.h */,
+				3BEBFFC91743556400FF3470 /* HUDAppDelegate.m */,
+				3BEBFFC01743556400FF3470 /* Supporting Files */,
+			);
+			path = progresshudtest;
+			sourceTree = "<group>";
+		};
+		3BEBFFC01743556400FF3470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BEBFFC11743556400FF3470 /* progresshudtest-Info.plist */,
+				3BEBFFC21743556400FF3470 /* InfoPlist.strings */,
+				3BEBFFC51743556400FF3470 /* main.m */,
+				3BEBFFC71743556400FF3470 /* progresshudtest-Prefix.pch */,
+				3BEBFFCB1743556400FF3470 /* Default.png */,
+				3BEBFFCD1743556400FF3470 /* Default@2x.png */,
+				3BEBFFCF1743556400FF3470 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BEBFFB51743556400FF3470 /* progresshudtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEBFFD31743556400FF3470 /* Build configuration list for PBXNativeTarget "progresshudtest" */;
+			buildPhases = (
+				3BEBFFB21743556400FF3470 /* Sources */,
+				3BEBFFB31743556400FF3470 /* Frameworks */,
+				3BEBFFB41743556400FF3470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = progresshudtest;
+			productName = progresshudtest;
+			productReference = 3BEBFFB61743556400FF3470 /* progresshudtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BEBFFAE1743556400FF3470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HUD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = DBG;
+			};
+			buildConfigurationList = 3BEBFFB11743556400FF3470 /* Build configuration list for PBXProject "progresshudtest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BEBFFAD1743556400FF3470;
+			productRefGroup = 3BEBFFB71743556400FF3470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BEBFFB51743556400FF3470 /* progresshudtest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BEBFFB41743556400FF3470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEBFFC41743556400FF3470 /* InfoPlist.strings in Resources */,
+				3BEBFFCC1743556400FF3470 /* Default.png in Resources */,
+				3BEBFFCE1743556400FF3470 /* Default@2x.png in Resources */,
+				3BEBFFD01743556400FF3470 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BEBFFB21743556400FF3470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEBFFC61743556400FF3470 /* main.m in Sources */,
+				3BEBFFCA1743556400FF3470 /* HUDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BEBFFC21743556400FF3470 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEBFFC31743556400FF3470 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BEBFFD11743556400FF3470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BEBFFD21743556400FF3470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BEBFFD41743556400FF3470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "progresshudtest/progresshudtest-Prefix.pch";
+				INFOPLIST_FILE = "progresshudtest/progresshudtest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BEBFFD51743556400FF3470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "progresshudtest/progresshudtest-Prefix.pch";
+				INFOPLIST_FILE = "progresshudtest/progresshudtest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BEBFFB11743556400FF3470 /* Build configuration list for PBXProject "progresshudtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEBFFD11743556400FF3470 /* Debug */,
+				3BEBFFD21743556400FF3470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEBFFD31743556400FF3470 /* Build configuration list for PBXNativeTarget "progresshudtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEBFFD41743556400FF3470 /* Debug */,
+				3BEBFFD51743556400FF3470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BEBFFAE1743556400FF3470 /* Project object */;
+}
